@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyPluggableServices\EasyPluggableServices.csproj" />
+    <ProjectReference Include="..\Examples.Interfaces\Examples.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

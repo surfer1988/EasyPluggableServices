@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPluggableServices", "EasyPluggableServices\EasyPluggableServices.csproj", "{2697EF3C-339E-41B3-9D38-D91248BC7CCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyPluggableServices", "EasyPluggableServices\EasyPluggableServices.csproj", "{2697EF3C-339E-41B3-9D38-D91248BC7CCE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{07DDAE83-4B74-4B67-AA5C-C840BFAFEA75}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{07DDAE83-4B74-4B67-AA5C-C840BFAFEA75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.EasyPluggableServices", "Test.EasyPluggableServices\Test.EasyPluggableServices.csproj", "{C90F0B0F-F731-48CA-94AB-0A2842C69244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.EasyPluggableServices", "Tests\Test.EasyPluggableServices\Test.EasyPluggableServices.csproj", "{C90F0B0F-F731-48CA-94AB-0A2842C69244}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{A4788788-5156-418E-A8BB-93AE91858923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.Interfaces", "Examples.Interfaces\Examples.Interfaces.csproj", "{65EC0F45-FA5C-462F-9A67-A1BE00799A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Interfaces", "Examples\Examples.Interfaces\Examples.Interfaces.csproj", "{65EC0F45-FA5C-462F-9A67-A1BE00799A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.Plugin", "Examples.Plugin\Examples.Plugin.csproj", "{55B89A73-4EB8-4548-8849-4A0751F3FBBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Plugin", "Examples\Examples.Plugin\Examples.Plugin.csproj", "{55B89A73-4EB8-4548-8849-4A0751F3FBBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.WebApi", "Examples.WebApi\Examples.WebApi.csproj", "{7BA1C762-DC34-4546-9555-E148603AC9E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.WebApi", "Examples\Examples.WebApi\Examples.WebApi.csproj", "{7BA1C762-DC34-4546-9555-E148603AC9E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

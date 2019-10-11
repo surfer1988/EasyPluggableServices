@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EasyPluggableServices\EasyPluggableServices.csproj" />
+    <ProjectReference Include="..\..\EasyPluggableServices\EasyPluggableServices.csproj" />
     <ProjectReference Include="..\Examples.Interfaces\Examples.Interfaces.csproj" />
   </ItemGroup>
 

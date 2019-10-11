@@ -24,7 +24,10 @@ namespace EasyPluggableServices.Extension
         public static void LoadServicesInPluginModule(this IServiceCollection services, ILoggerFactory loggerFactory, IConfiguration configuration)
         {
             EasyPluggableDIConfig config = configuration.Get<EasyPluggableDIConfig>();
-            InternalLoadServicesInPlugin(services, loggerFactory, config.Modules.Select(p => p.Location).ToList());
+
+            List<string> locationModules = config?.Modules?.Select(p => p.Location)?.ToList() ?? new List<string>();
+
+            InternalLoadServicesInPlugin(services, loggerFactory, locationModules);
         }
 
         internal static void InternalLoadServicesInPlugin(IServiceCollection services, ILoggerFactory loggerFactory, List<string> locationModules)
